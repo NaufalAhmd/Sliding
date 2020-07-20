@@ -15,7 +15,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: -webkit-linear-gradient(left, #49c5ff, #1dff3b);
+    /* background: -webkit-linear-gradient(left, #49c5ff, #1dff3b); */
+    background-image: url(./Images/abstract-1867838_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Nunito;
 }
 
