@@ -218,6 +218,7 @@ button{
     position: absolute;
     left: 0;
     top: 50px;
+    width: 100%;
     padding: 0 20px;
     text-align: center;
     color: #ffffff;
@@ -257,7 +258,7 @@ button{
             transition-timing-function: ease-out;
 }
 
-.container .s-sign-in .sign-in{
+.container .s-signup .sign-in{
     -webkit-transition-timing-function: ease-in-out;
             transition-timing-function: ease-in-out;
     -webkit-transition-duration: .7s;
@@ -313,9 +314,13 @@ button{
             transform: translateY(-72px);
 }
 
-.image-btn span.m-up{
+.container.s-signup .image-btn span.m-in{
     -webkit-transform: translateY(0);
             transform: translateY(0);
+}
+.container.s-signup .image-btn span.m-up{
+    -webkit-transform: translateY(72px);
+            transform: translateY(72px);
 }
 
 .sign-up{
