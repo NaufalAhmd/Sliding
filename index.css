@@ -1,6 +1,6 @@
 @font-face{
     src: url(fonts/Nunito-Regular.ttf);
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
 }
 
 *, *:before, *:after{
@@ -19,7 +19,7 @@ body{
     background-image: url(./Images/abstract-1867838_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
 }
 
 input, button{
@@ -67,7 +67,7 @@ label span{
     font-weight: 600;
     color: #505f75;
     text-transform: uppercase;
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
 }
 
 input{
@@ -78,7 +78,7 @@ input{
     padding-bottom: 5px;
     border-bottom: 1px solid #999999    ;
     text-align: center;
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
 }
 
 button{
@@ -96,7 +96,7 @@ button{
     margin: 40x auto 30px auto;
     text-transform: uppercase;
     font-weight: 600;
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     border: 0.5px solid #999999;
     color: #666666;
     background-color: #99999900;
@@ -125,7 +125,7 @@ button{
     margin: 40x auto 30px auto;
     text-transform: uppercase;
     font-weight: 600;
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     border: 0.5px solid #999999;
     color: #666666;
     background-color: #99999900;
